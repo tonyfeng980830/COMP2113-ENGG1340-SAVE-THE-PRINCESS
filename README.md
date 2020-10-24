@@ -1,4 +1,4 @@
-# COMP2113-ENGG1340-SAVE-THE-PRINCESS
+# COMP2113-ENGG1340-Group Project
 # SAVE THE PRINCESS
 A text-based role-playing game written in C++. 
 
