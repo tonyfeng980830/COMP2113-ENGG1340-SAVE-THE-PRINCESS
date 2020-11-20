@@ -3,7 +3,7 @@
 A text-based role-playing game written in C++. 
 
 # Group Members
-1. Feng Guoze 303564152
+1. Feng Guoze 3035641528
 2. CHAN YUMAN 3035685483
 
 
