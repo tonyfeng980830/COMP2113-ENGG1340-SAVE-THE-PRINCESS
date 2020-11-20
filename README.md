@@ -26,7 +26,6 @@ A text-based role-playing game written in C++.
 ## List of features: 
 * Generation of random game sets or events: 
   * Outcomes of random draw of dice determine various levels and fights of the game.
-  * The player can choose action 4: make your pet to attack from different attack styles, which has a random chance of hitting the enemy successfully.
 * Data structures for storing game status:
   * Dynamic memory management: We will store the player’s username and his progress using dynamic memory manipulation in files. Moreover, we also create a struct() function to initialize the basic information based on what character that the user chooses. Moreover, we also utilize integer and character array to save the game progress
 * File input/output: 
