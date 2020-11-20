@@ -14,16 +14,17 @@ A text-based role-playing game written in C++.
 * Firstly, you need to create or login your account.
   * For the new players, they should select the role they want to, eg,.warrior, mage, marksman.
 * On the home page, you can choose to stay in the Village or go to the Adventure Island. Moverover, there is a store where you can buy your weapons and equipment.
-  * Once you choose Adventure Island, there are totally 5 stages you need to reach in Adventure Island. You need to walk through each stage and beat down all the monsters that you encounter. When you enter the stage, You will be asked to throw the dice to move forward. (different number determines different level of monsters you will face in that stage)
-  * When you choose Store, there will be many weapons and equipment that you can buy based on your money and what stage you are in.
+  * Once you choose Adventure Island, there are totally 6 stages you need to reach in Adventure Island. You need to walk through each stage and beat down all the monsters that you encounter. When you enter the stage, You will be asked to throw the dice. (different number determines different level of monsters you will face in that stage)
+  * When you choose Store, there will be many weapons and equipment that you can buy based on your money and what stage you are in( All weapons and equipment can be buy again and the parameters of your character will also increase).
 * In the Adventure Island, when engaging the monsters, you have 3 actions to choose from at each round.
   * Attack, Bag, Leave
+  * In option Attack, you will have two attack ways. One is normal attack, another one is strong attack( it will comsume mana).
   * You need to make careful consideration based on your enemy and your stats (eg. Health point, attack, deference and mana point).
 * The game is completed when the player has successfully defeated the "final boss" and saved the princess.
 * Players will be given the choice of starting a new game or continuing previously saved game progress.
 * Players will be given the option to exit game in the Village game and save his progress.
 
-## List of features: 
+## List of features
 * Generation of random game sets or events: 
   * Outcomes of random draw of dice determine various levels and fights of the game.
 * Data structures for storing game status:
