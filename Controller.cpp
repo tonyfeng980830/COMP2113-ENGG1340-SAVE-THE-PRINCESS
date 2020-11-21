@@ -8,7 +8,7 @@
 #include "Weapon.h"
 
 using namespace std;
-
+// this is the main function to run the game
 void Controller::Run()
 {
 	string user_name;
@@ -20,7 +20,7 @@ void Controller::Run()
 	Hero hero(user_name);
 
 	Menu menu;
-	while (true)
+	while (true)						//this while-loop is to show the main menu for the game
 	{
 		int sel = menu.HomePage();
 		switch (sel)
@@ -44,7 +44,7 @@ void Controller::Run()
 	}
 }
 
-bool Controller::EnterGame(string &user_name)
+bool Controller::EnterGame(string &user_name)					// this function is use for when the user is first time into the game
 {
 	cout << "******************************************Welcome to Save the Princess******************************************" << endl;
 	while (true)
@@ -66,7 +66,7 @@ bool Controller::EnterGame(string &user_name)
 	}
 }
 
-bool Controller::Login(string &user_name)
+bool Controller::Login(string &user_name)				// this is login function
 {
 	cout << "User login:" << endl;
 	map<string, string> datas; LoadUserDatabase(datas);
@@ -90,7 +90,7 @@ bool Controller::Login(string &user_name)
 	}
 }
 
-void Controller::Register()
+void Controller::Register()							// this is register function
 {
 	cout << "Register:" << endl;
 	map<string, string> datas; LoadUserDatabase(datas);
@@ -124,12 +124,12 @@ void Controller::Register()
 	cout << "Register success!\n" << endl;
 }
 
-void Controller::Exit()
+void Controller::Exit()								// function to show bye bye when exit the game
 {
 	cout << "Bye bye!" << endl;
 }
 
-void Controller::AdventureIsland(Hero & hero)
+void Controller::AdventureIsland(Hero & hero)						// when user choose AdventureIsland and will join to this function
 {	if(hero.m_stage==7){
 
 	cout<<"You have successfully complelted the game and save the princess!"<<endl;
@@ -159,7 +159,7 @@ void Controller::AdventureIsland(Hero & hero)
 	}
 }
 
-void Controller::StayInVillage(Hero & hero)
+void Controller::StayInVillage(Hero & hero) 				
 {
 	hero.Recovery();
 	cout << "Hero's health and mana have been restored" << endl;
